@@ -68,4 +68,4 @@ Learning Outcomes:
 
     Explore Rust’s ecosystem for multimedia and graphics.
 
-    Learn about performance optimization and low-level systems programming in Rust.
+    Learn about performance optimization and low-level systems programming in Rust.# todo
