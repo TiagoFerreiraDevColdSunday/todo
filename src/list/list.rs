@@ -3,7 +3,7 @@ use serde::{Serialize, Deserialize};
 
 mod date_format_serde;
 
-#[derive(Serialize, Deserialize)]
+#[derive(Serialize, Deserialize,Debug,Clone)]
 pub struct List {
     pub title: String,
     pub description: String,
