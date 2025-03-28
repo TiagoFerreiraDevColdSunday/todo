@@ -27,8 +27,7 @@ enum Commands {
     },
 
     // List all to-do items
-    Get {
-    }
+    Get {},
 }
 
 fn main() {

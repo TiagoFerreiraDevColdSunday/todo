@@ -6,5 +6,9 @@ install_todo:
 install_cargo:
 	curl https://sh.rustup.rs -sSf | sh
 
+format:
+	cargo fmt
+
 build:
+	$(MAKE) format
 	./install.sh
