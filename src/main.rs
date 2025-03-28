@@ -25,9 +25,13 @@ enum Commands {
         /// Deadline for the to-do item (YYYY-MM-DD)
         deadline: String,
     },
+
+    // List all to-do items
+    Get {
+    }
 }
 
-fn add() {
+fn main() {
     let cli = Cli::parse();
 
     match &cli.command {
@@ -61,9 +65,8 @@ fn add() {
                 println!("Task added to the list.");
             }
         }
+        Commands::Get {} => {
+            println!("Listing all to-do items...");
+        }
     }
-}
-
-fn main() {
-    add();
 }

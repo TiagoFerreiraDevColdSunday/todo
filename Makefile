@@ -5,3 +5,6 @@ install_todo:
 
 install_cargo:
 	curl https://sh.rustup.rs -sSf | sh
+
+build:
+	./install.sh
